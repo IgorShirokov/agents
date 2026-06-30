@@ -136,7 +136,7 @@ result = (
         inputs={
             "level": "Senior",
             "position": "Golang Developer",
-            "location": "Netherlands",
+            "location": "Russia",
         }
     )
 )
