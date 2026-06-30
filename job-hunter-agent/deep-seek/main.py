@@ -1,12 +1,23 @@
+import os
+
 import dotenv
 
 dotenv.load_dotenv()
 
-from crewai import Crew, Agent, Task
+from crewai import Crew, Agent, Task, LLM
 from crewai.project import CrewBase, task, agent, crew
 from crewai.knowledge.source.text_file_knowledge_source import TextFileKnowledgeSource
 from models import JobList, RankedJobList, ChosenJob
 from tools import web_search_tool
+
+# DeepSeek LLM configured from environment (.env).
+# The endpoint is OpenAI-compatible, so the model is prefixed with "openai/"
+# and routed through the custom base URL.
+deepseek_llm = LLM(
+    model=f"openai/{os.getenv('API_MODEL')}",
+    base_url=os.getenv("API_BASE_URL"),
+    api_key=os.getenv("OPENAI_API_KEY"),
+)
 
 resume_knowledge = TextFileKnowledgeSource(
     file_paths=[
@@ -23,6 +34,7 @@ class JobHunterCrew:
         return Agent(
             config=self.agents_config["job_search_agent"],
             tools=[web_search_tool],
+            llm=deepseek_llm,
         )
 
     @agent
@@ -30,6 +42,7 @@ class JobHunterCrew:
         return Agent(
             config=self.agents_config["job_matching_agent"],
             knowledge_sources=[resume_knowledge],
+            llm=deepseek_llm,
         )
 
     @agent
@@ -37,6 +50,7 @@ class JobHunterCrew:
         return Agent(
             config=self.agents_config["resume_optimization_agent"],
             knowledge_sources=[resume_knowledge],
+            llm=deepseek_llm,
         )
 
     @agent
@@ -45,6 +59,7 @@ class JobHunterCrew:
             config=self.agents_config["company_research_agent"],
             knowledge_sources=[resume_knowledge],
             tools=[web_search_tool],
+            llm=deepseek_llm,
         )
 
     @agent
@@ -52,6 +67,7 @@ class JobHunterCrew:
         return Agent(
             config=self.agents_config["interview_prep_agent"],
             knowledge_sources=[resume_knowledge],
+            llm=deepseek_llm,
         )
 
     @task

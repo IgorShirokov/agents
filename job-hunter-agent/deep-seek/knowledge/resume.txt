@@ -1,84 +1,107 @@
-# Juan Srisaiwong
-**Full Stack Developer**
+# Igor Shirokov
+**Senior Backend Developer (Golang)**
 
-📧 juan.srisaiwong@email.com | 📱 +34 612 345 678  
-🌐 LinkedIn: linkedin.com/srisaiwong | GitHub: github.com/srisaiwong  
-📍 Copenhagen, Denmark
+📧 golang_dev@bk.ru
+📍 Ekaterinburg, Russia
+💬 Telegram: @i_am_gopher
+🔗 Habr Career: https://career.habr.com/i_am_gopher
 
 ---
 
 ## Professional Summary
 
-Passionate Full Stack Developer with 3 years of experience building scalable web applications and modern user interfaces. Proficient in JavaScript ecosystem with expertise in React, Node.js, and cloud technologies. Strong problem-solving skills and collaborative approach to delivering high-quality software solutions.
+Senior Backend Developer with 13+ years of experience, specializing in Golang and high-load distributed systems. Expert in microservice architecture, Kubernetes, and Domain-Driven Design. Proven track record designing high-availability clusters (99.95% uptime / 120k tps) for healthcare platforms. Strong background spanning backend, infrastructure, and frontend, with deep expertise in observability, message queues, and cloud-native development.
 
 ---
 
 ## Technical Skills
 
-**Frontend:** React, Vue.js, HTML5, CSS3, Sass, TypeScript, JavaScript (ES6+), Bootstrap, Tailwind CSS  
-**Backend:** Node.js, Express.js, Python, Django, RESTful APIs, GraphQL  
-**Databases:** PostgreSQL, MySQL, MongoDB, Redis  
-**Cloud & DevOps:** AWS (EC2, S3, Lambda), Docker, CI/CD, Git, GitHub Actions  
-**Tools:** VS Code, Postman, Figma, Jira, Slack
+**Languages:** Golang, Node.js, TypeScript, JavaScript, SQL
+**Backend & Architecture:** Microservices, DDD, Clean/Hexagonal Architecture, Event Storming, RESTful API, gRPC, OpenAPI/AsyncAPI, Nest.js, TypeORM, Nx
+**Databases:** PostgreSQL, ClickHouse, MongoDB, Redis, NoSQL, S3
+**Infrastructure & DevOps:** Docker, Kubernetes (kubeadm, Ansible, Vagrant, Ceph, helm/kustomize, OIDC), Linux, Nginx, Jenkins, GitLab CI/CD, Tilt
+**Message Queues:** Kafka, RabbitMQ
+**Observability:** Grafana (Tempo), Prometheus, Loki, Jaeger, OpenTelemetry
+**Protocols:** TCP/IP, UDP, HTTP/HTTPS, HTTP2/gRPC, WebSocket, AMQP/MQTT, TLS/SSL
+**Tools:** Git, GitHub, GitLab
 
 ---
 
 ## Professional Experience
 
-### Full Stack Developer
-**TechSolutions Madrid** | Madrid, Spain | *March 2022 - Present*
+### Senior Backend Developer — Software Engineer (Golang, Kubernetes)
+**Solve.Care** | *January 2022 - February 2026 (4 years 2 months)*
 
-- Developed and maintained 5+ web applications serving over 10,000 users using React and Node.js
-- Implemented responsive designs that improved mobile user engagement by 40%
-- Built RESTful APIs and integrated third-party services, reducing data processing time by 25%
-- Collaborated with cross-functional teams using Agile methodologies
-- Optimized database queries resulting in 30% faster page load times
+Project: Healthcare management platform and distributed file storage.
 
-### Junior Full Stack Developer
-**StartupLab Barcelona** | Barcelona, Spain | *June 2021 - February 2022*
+- Participated in system design of a high-availability cluster (99.95% / 120k tps)
+- Maintained and evolved microservice architecture
+- Performed domain decomposition using Event Storming
+- Applied DDD, Clean/Hexagonal Architecture
+- Implemented platform libraries and supported infrastructure services
+- Investigated and resolved production incidents
+- Participated in Kubernetes cluster design (HA, kubeadm, Ansible, Vagrant, DNS, CNI, Ceph, helm/kustomize, OIDC with gangway/dex/ldap)
+- Developed and maintained a custom Kubernetes operator (Custom Resource Definition) for application management automation
 
-- Contributed to the development of an e-commerce platform using Vue.js and Express.js
-- Implemented user authentication and authorization systems
-- Participated in code reviews and maintained high code quality standards
-- Fixed bugs and implemented new features based on user feedback
-- Assisted in deployment processes and server maintenance
+**Stack:** Golang (concurrency, fiber/chi, sql/gorm, RESTful API, OpenAPI/AsyncAPI, Tilt), PostgreSQL, ClickHouse, MongoDB, Redis, S3, Docker/K8s, Ansible, Nginx, Jenkins, GitLab CI/CD, Kafka, RabbitMQ, Grafana (Tempo), Prometheus, Loki, Jaeger, OpenTelemetry
+
+### Senior Backend Developer — Lead Software Engineer (Golang)
+**SberTech** | Moscow, Russia | *October 2019 - December 2021 (2 years 3 months)*
+
+Project: Eapteka (online pharmacy).
+
+- Optimized and extended functionality of the existing codebase
+- Debugged and wrote unit and integration tests
+- Maintained technical documentation
+- Performed code reviews
+
+**Stack:** Golang, PostgreSQL, ClickHouse, Redis, S3, Docker, Nginx, Kafka, Grafana, Prometheus
+
+### Senior Backend Developer — Node.js Developer
+**MTS Web Services** | *March 2017 - September 2019 (2 years 7 months)*
+
+Project: MTS Franchising.
+
+- Participated in architectural discussions, made technical decisions, and upheld agreed development standards
+- Designed and developed APIs
+- Optimized code and ensured quality through testing and code review
+- Integrated and interacted with external services
+
+**Stack:** Node.js, Nest.js, TypeORM, Nx, PostgreSQL, MongoDB, ClickHouse, Redis, Nginx, Docker, RabbitMQ
+
+### Frontend Developer
+**Ural-Soft Systems** | Ekaterinburg, Russia | *October 2013 - March 2017 (3 years 6 months)*
+
+- Implemented client-side logic: forms, data validation, dynamic content updates
+- Built responsive/adaptive designs
+- Integrated with REST APIs
+- Optimized and extended existing functionality
+
+**Stack:** JavaScript, React, SCSS, Angular, TypeScript, HTML, CSS, Node.js
+
+### HTML Markup Developer
+**Ural-Soft Systems** | Ekaterinburg, Russia | *July 2012 - October 2013 (1 year 4 months)*
+
+- Built websites, corporate portals, and landing pages
+
+**Stack:** HTML, CSS, Landing pages, Twitter Bootstrap, Gulp, Cross-browser markup, jQuery
 
 ---
 
 ## Education
 
-### Bachelor's Degree in Computer Science
-**Universidad Politécnica de Madrid** | Madrid, Spain | *2017 - 2021*
-
-**Relevant Coursework:** Data Structures, Algorithms, Database Systems, Software Engineering, Web Development
-
----
-
-## Projects
-
-### E-Commerce Dashboard
-*React, Node.js, PostgreSQL, AWS*
-- Built a comprehensive admin dashboard for managing products, orders, and customers
-- Implemented real-time analytics and reporting features
-- Deployed on AWS with automated CI/CD pipeline
-
-### Task Management App
-*Vue.js, Express.js, MongoDB*
-- Developed a collaborative task management application with real-time updates
-- Integrated user authentication and role-based permissions
-- Implemented drag-and-drop functionality and notification system
+### Ural Federal University named after the first President of Russia B.N. Yeltsin
+**Institute of Mechanics and Mechanical Engineering** | Ekaterinburg, Russia | *September 2007 - June 2011*
 
 ---
 
 ## Languages
 
-**Spanish:** Native  
-**English:** Professional (C1)  
-**Catalan:** Conversational (B2)
+**Russian:** Native
+**English:** Professional
 
 ---
 
-## Certifications
+## About
 
-- AWS Certified Developer - Associate (2023)
-- React Developer Certification - Meta (2022)
+I write Go faster than its compiler.
